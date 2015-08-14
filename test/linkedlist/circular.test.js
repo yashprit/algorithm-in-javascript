@@ -1,7 +1,11 @@
-var CircularLinkedList = require('jal').CircularLinkedList;
-var SingleLinkedList = require('jal').SingleLinkedList;
-var isCircular = require('../../src/linkedlist/circular');
-var expect = require('chai').expect;
+var
+  jal = require('jal'),
+  isCircular = require('../../src/linkedlist/circular'),
+  expect = require('chai').expect;
+
+
+CircularLinkedList jal.CircularLinkedList;
+SingleLinkedList = jal.SingleLinkedList;
 
 var cll, sll;
 
