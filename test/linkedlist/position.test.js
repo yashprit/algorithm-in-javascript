@@ -1,12 +1,12 @@
-var SingleLinkedList = require('jal').SingleLinkedList;
-var position = require('../../src/linkedlist/position');
-var expect = require('chai').expect;
+var
+  SingleLinkedList = require('jal').SingleLinkedList,
+  position = require('../../src/linkedlist/position'),
+  expect = require('chai').expect;
+
 
 describe("Testing found position from last", function() {
 
   var sll;
-
-  console.log(position);
 
   beforeEach(function(){
     sll = new SingleLinkedList();
