@@ -4,8 +4,8 @@ var
   expect = require('chai').expect;
 
 
-CircularLinkedList jal.CircularLinkedList;
-SingleLinkedList = jal.SingleLinkedList;
+var CircularLinkedList = jal.CircularLinkedList;
+var SingleLinkedList = jal.SingleLinkedList;
 
 var cll, sll;
 
