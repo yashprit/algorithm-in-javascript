@@ -1,5 +1,10 @@
+//https://en.wikipedia.org/wiki/Reverse_Polish_notation
+
 var Stack = require('jal').Stack;
 
+/**
+  * @param {String} expression to be converted into rpn
+  */
 module.exports = function(expression){
   var operators = ['+','-','/','*'];
   var operations = ['(', ')'];
@@ -13,6 +18,7 @@ module.exports = function(expression){
     }
   }
 
+  //if opening brackets doesn't have correspoding closing brackets
   if(count){
     throw new Error('expression is not valid')
   }
