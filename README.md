@@ -5,3 +5,4 @@
 ## List of Algorithms
 
 - [LinkedList](src/linkedlist)
+- [Stack](src/stack)
