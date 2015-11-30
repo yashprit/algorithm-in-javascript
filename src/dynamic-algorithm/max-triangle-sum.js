@@ -20,7 +20,7 @@ module.exports = function (triangle) {
     triangle.push(row);
   }
   
-  var result = triangle[0][0]
+  var result = triangle[0][0];
 
   return result;
 }
